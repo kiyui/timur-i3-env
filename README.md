@@ -10,6 +10,7 @@ Requires:
 * [imagemagick](https://github.com/ImageMagick/ImageMagick)
 * [compton](https://github.com/chjj/compton)
 * [rofi](https://davedavenport.github.io/rofi/)
+* [lemonbar](https://github.com/LemonBoy/bar)
 * [powerline](https://github.com/powerline/powerline)
 * i3lock, i3-nagbar, URXVT
 
