@@ -1,0 +1,41 @@
+{
+	"segments": {
+        "left": [
+            {
+                "function": "powerline.segments.i3wm.workspaces"
+            },
+            {
+                "function": "powerline.segments.i3wm.mode"
+            }
+        ],
+		"right": [
+            {
+                "function": "powerline.segments.common.sys.uptime"
+            },
+            {
+                "function": "powerline.segments.common.net.external_ip"
+            },
+            {
+                "function": "powerline.segments.common.net.network_load"
+            },
+			{
+				"function": "powerline.segments.common.wthr.weather",
+				"priority": 50,
+                "args": {
+                    "unit": "C",
+                    "location_query": "Kuching, Sarawak",
+                    "temp_coldest": 22,
+                    "temp_hottest": 44
+                }
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"name": "time",
+				"args": {
+					"format": "%H:%M : %d/%m/%Y",
+					"istime": true
+				}
+			}
+		]
+	}
+}

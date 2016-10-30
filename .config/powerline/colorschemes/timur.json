@@ -1,0 +1,26 @@
+{
+	"name": "Solarized dark",
+	"groups": {
+		"date":                    { "fg": "timur:text1", "bg": "timur:base3", "attrs": [] },
+		"time":                    { "fg": "timur:text1", "bg": "timur:base3", "attrs": ["bold"] },
+		"time:divider":            { "fg": "timur:text1", "bg": "timur:base3", "attrs": [] },
+
+		"weather_temp_gradient":   { "fg": "blue_red",        "bg": "timur:base2", "attrs": [] },
+		"weather":                 { "fg": "timur:base1", "bg": "timur:base2", "attrs": [] },
+
+		"network_load":            { "fg": "timur:text0", "bg": "timur:highlight1", "attrs": [] },
+		"network_load:divider":    { "fg": "timur:text0", "bg": "timur:highlight1", "attrs": [] },
+
+		"external_ip":             { "fg": "timur:text0", "bg": "timur:highlight2", "attrs": [] },
+
+		"uptime":                  { "fg": "timur:text0", "bg": "timur:base0", "attrs": [] },
+
+		"background":              { "fg": "timur:base0", "bg": "timur:base0", "attrs": [] },
+		"background:divider":      { "fg": "timur:base1", "bg": "timur:base0", "attrs": [] },
+
+		"workspace":               { "fg": "timur:text2", "bg": "timur:base3", "attrs": [] },
+		"w_visible":               { "fg": "timur:text1", "bg": "timur:highlight3", "attrs": [] },
+		"w_focused":               { "fg": "timur:text1", "bg": "timur:highlight3", "attrs": [] },
+		"w_hidden":                { "fg": "timur:text2", "bg": "timur:base3", "attrs": [] }
+	}
+}
