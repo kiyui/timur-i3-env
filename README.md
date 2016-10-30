@@ -40,3 +40,10 @@ Desktop:
 My shell uses [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) with the following config:
 * [.zshrc](https://gist.github.com/TimurKiyivinski/5846fe2459544865ee11)
 * [.zshenv](https://gist.github.com/TimurKiyivinski/4e69f98d20bc0e90ab70317b578a1e64)
+
+## shortcuts
+* `Super + D` Open Rofi
+* `Super + Shift + S` Power Menu
+* `Super + Shift + X` Lock Screen
+* `Left Super + $N` switch to workspace `$N` on left monitor
+* `Right Super + $N` switch to workspace `$N` on right monitor
