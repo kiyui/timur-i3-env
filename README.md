@@ -1,6 +1,6 @@
 # timur-i3-env
 Refactored from my [i3-config](https://github.com/TimurKiyivinski/i3-config-desktop) to use a Powerline status bar instead.
-It is a highly opiniated setup for my needs using my themes and liking.
+It is a highly opinionated setup for my needs using my themes and liking.
 
 Requires:
 * [twmn](https://github.com/sboli/Twmn)
@@ -15,6 +15,7 @@ Requires:
 
 # setup
 Copy `.Xresources` and `.config` to `~/`. You may have to modify the i3 screen setup as this is configured for dual monitors.
+The `.config` directory includes my `i3` and `Powerline` config whereas `.Xresources` contains my `Rofi` and `URXVT` config.
 
 # wallpaper setup
 Wallpapers are selected on random from `~/.theme/wallpaper-*.png`. Example:
@@ -34,3 +35,8 @@ executables=("nm-applet" "firefox" "spotify" "telegram" "owncloud" "redshift-gtk
 # screenshots
 Desktop:
 ![desktop](screenshots/desktop.png)
+
+# additional information
+My shell uses [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) with the following config:
+* [.zshrc](https://gist.github.com/TimurKiyivinski/5846fe2459544865ee11)
+* [.zshenv](https://gist.github.com/TimurKiyivinski/4e69f98d20bc0e90ab70317b578a1e64)
