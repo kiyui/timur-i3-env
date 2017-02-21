@@ -99,12 +99,12 @@ set $w6 "6: term "
 set $w7 "7: term "
 set $w8 "8: game "
 set $w9 "9: crypto "
-set $w10 "10: telegram "
+set $w10 "10: chat"
 
 set $ww1 "1: ♫ "
 set $ww2 "2: www  "
 set $ww3 "3: docs "
-set $ww4 "4: ~ "
+set $ww4 "4: market "
 set $ww5 "5: ~ "
 set $ww6 "6: ~ "
 set $ww7 "7: ~ "
@@ -188,6 +188,8 @@ assign [class="chromium"] $w1
 assign [class="Electrum"] $w9
 assign [class="Steam"] $w8
 assign [class="Mist"] $w9
+assign [class="Wire"] $w10
+assign [class="TelegramDesktop"] $w10
 assign [class="telegram-desktop"] $w10
 assign [class="spotify"] $ww1
 assign [class="Zeal"] $ww3
@@ -255,6 +257,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 # command variables
 set $lockcmd "~/.config/i3/bin/lock"
 set $syscmd "~/.config/i3/bin/sys"
+set $fm "nautilus"
 set $www "chromium"
 
 # custom bindings
@@ -275,6 +278,7 @@ bindsym $mod+Print exec ~/.config/i3/bin/maimcrop
 bindsym Ctrl+Mod1+Right workspace next_on_output
 bindsym Ctrl+Mod1+Left workspace prev_on_output
 bindsym Ctrl+Mod1+f exec $www
+bindsym Ctrl+Mod1+n exec $fm
 
 # Status bar
 exec ~/.config/i3/status.py --i3 -- -f "Inconsolata for Powerline:size=12" -f "PowerlineSymbols:size=9"
