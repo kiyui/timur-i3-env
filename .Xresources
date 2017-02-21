@@ -1,3 +1,7 @@
+! Term type
+XTerm*termName: xterm-256color
+URxvt*termName: rxvt-unicode
+
 ! Scroll
 URxvt*scrollTtyOutput:   false
 URxvt*scrollWithBuffer:  true

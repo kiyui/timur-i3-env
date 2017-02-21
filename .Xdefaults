@@ -1,0 +1,29 @@
+! Scroll
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*scrollBar: false
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+! Font
+URxvt*font:  xft:inconsolata:size=12:antialias=true,xft:FontAwesome:pixelsize=11
+URxvt.letterSpace: 1
+
+! Background
+URxvt*depth: 32
+URxvt.background: [95]#000000
+
+! Clipboard
+URxvt.iso14755 :            false
+URxvt.perl-ext-common:      clipboard
+URxvt.keysym.C-C:           perl:clipboard:copy
+URxvt.keysym.C-V:           perl:clipboard:paste
+URxvt.keysym.C-A-V:         perl:clipboard:paste_escaped
+
+! URL
+URxvt.url-select.launcher:  chromium
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
