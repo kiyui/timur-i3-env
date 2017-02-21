@@ -15,7 +15,7 @@ Requires:
 * i3lock, i3-nagbar, URXVT
 
 # setup
-Copy `.Xresources` and `.config` to `~/`. You may have to modify the i3 screen setup as this is configured for dual monitors.
+Copy `.Xresources`, `.Xdefaults`, and `.config` to `~/`. You may have to modify the i3 screen setup as this is configured for dual monitors.
 The `.config` directory includes my `i3` and `Powerline` config whereas `.Xresources` contains my `Rofi` and `URXVT` config.
 
 # wallpaper setup
